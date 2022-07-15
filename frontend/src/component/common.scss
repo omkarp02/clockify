@@ -1,0 +1,134 @@
+.form_header {
+  margin: 5vh 0 5vh 0;
+}
+
+.btn_padding {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.form-div {
+  width: 100%;
+  display: flex;
+  & input {
+    width: 60%;
+    height: 45px;
+    margin-right: 10px;
+  }
+  & button{
+    border: solid 1px black;
+    box-sizing: border-box;
+    width: 10%;
+    border-radius: 5%;
+    background: white;
+  }
+}
+
+.start_div {
+  margin-top: 8%;
+
+  & h5 b {
+    color: grey;
+  }
+}
+
+.content-div {
+  height: 30vh;
+  overflow-y: scroll;
+}
+
+.common_div{
+    background: rgb(249, 252, 253);
+    box-sizing: border-box;
+    height: 45px;
+}
+
+.span-div{
+    background: "#C8C8C8";
+    position: "relative";
+    text-align: "center";
+    padding: "10px";
+    margin: "0 10px 5px 10px";
+    border-radius: "5%";
+}
+
+.p-style{
+    color: black;
+    line-height: 18px;
+    font-size: 15px;
+}
+
+.p-second{
+    color: black;
+    line-height: 14px;
+    font-size: 13px;
+}
+
+.style-div{
+                 
+    background: #C8C8C8;
+    height: 45px;
+    margin: 0;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #f9fcfd;
+    box-sizing: border-box;
+}
+
+.double-div{
+    background: #96DED1;
+    height: 45px;
+    margin: 0;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #f9fcfd;
+    box-sizing: border-box;
+}
+
+.timeLine{
+  font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+.profileImage{
+  height: 40px;
+  max-width: 40px;
+  border-radius: 50%;
+}
+
+.dropdown :hover{
+  background: #F8F9FA;
+  border: none;
+}
+
+
+.para{
+    color: black;
+    line-height: 14px;
+    font-size: 20px;
+}
+
+.task-div{
+    background: #F0F0F0;
+    box-sizing: border-box;
+    height: 45px;
+    padding: 10px;
+    // border: 1px solid black;
+}
+
+.container-div{
+    width: 10vw;
+    height: 495px;
+    background-color: rgb(249, 252, 253);
+    border-right: 1px solid black;
+}
+
+.expanding-div{
+  background: #96DED1;
+  min-height: 120px;
+  position: relative;
+  margin: 0;
+  border-radius: 5px;
+  // padding: 10px;
+}

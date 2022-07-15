@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "lib": ["es2016", "es2017.object"],
+      "rootDir": "./src",
+      "module": "esnext",
+      "target": "es2017",
+      "outDir": "./dist",
+      "downlevelIteration": true,
+      "removeComments": true,
+      "moduleResolution": "Node",
+      "allowSyntheticDefaultImports":true,
+      "skipLibCheck": true,
+      "noEmit": false
+    },
+
+    "include": [
+        "src/**/*"
+    ],
+    "references": [
+    ],
+  }
